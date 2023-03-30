@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    
+    background-image:url(./images/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.main{
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    /* opacity: .9; */
+}
+.main h1{
+    margin: 20px ;
+    padding: 20px;
+}
+.form{
+    padding:20px 50px;
+   
+}
+
+.form label{
+    font-size:20px ;
+}
+.form input{
+    border-radius: 3px;
+    padding: 5px 20px;
+    margin: 10px;
+}
+.form button{
+    padding: 8px 15px;
+    background-color: #bdb7ad;
+   
+    margin: 15px 0 5px 0;
+}
+
